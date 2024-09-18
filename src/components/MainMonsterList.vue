@@ -15,7 +15,6 @@ export default {
 <template>
   <div class="card-wrapper">
     <MainMonsterListCard/>
-
   </div>
 
 
@@ -32,11 +31,5 @@ export default {
   margin: 0 auto;
   backdrop-filter: blur(3px);
   overflow: auto;
-}
-
-.card{
-  width: 250px;
-  height: 350px;
-  border: 1px solid black;
 }
 </style>
