@@ -5,7 +5,7 @@ export default {
   data() {
     return {
       monsterList: [],
-      axiosUrl : "https://db.ygoprodeck.com/api/v7/cardinfo.php?num=50&offset=0"
+      axiosUrl : "https://db.ygoprodeck.com/api/v7/cardinfo.php?num=20&offset=550"
       
     }
   }, 
@@ -16,6 +16,7 @@ export default {
       .then((response) => {
         console.dir(response.data.data);
         this.monsterList = response.data.data
+
       })
       .catch(function (error) {
         console.log(error);
@@ -34,10 +35,15 @@ export default {
 <template>
   <div class="card-wrapper">
     <div class="card-row">
-      <MainMonsterListCard/>
+      <MainMonsterListCard 
+        v-for="monster in monsterList" 
+        :key="monster.id" 
+        :monsterObject="monster" 
+      />
     </div>
   </div>
 </template>
+  
 
 <style lang="scss" scoped>
 // Card container 
