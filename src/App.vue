@@ -1,19 +1,7 @@
 <script setup>
-import AppHeader from './components/AppHeader.vue'
-import AppMain from './components/AppMain.vue'
-import AppFooter from './components/AppFooter.vue'
-
-export default {
-  data() {
-    return {
-      
-    }
-  },
-  components: {
-    AppHeader,
-    AppMain,
-    AppFooter
-  }
+import AppFooter from './components/AppFooter.vue';
+import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
 </script>
 
 <template>
@@ -23,4 +11,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use './bootstrap'
 </style>
+ 

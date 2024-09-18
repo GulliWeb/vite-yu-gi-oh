@@ -9,7 +9,6 @@ export default {
 </script>
 
 <template>
-    <H1>CIAO, IO SONO UN FOOTER</H1>
 </template>
 
 <style scoped>
