@@ -1,51 +1,25 @@
 <script>
+import MainLoader from './MainLoader.vue';
+import MainMonsterList from './MainMonsterList.vue';
+
 export default {
   data() {
     return {
+      isLoaded : true,
       
     }
+  },
+  components: {
+    MainLoader,
+    MainMonsterList
   }
 }
 </script>
 
 <template>
-  <div class="card-wrapper d-flex flex-wrap">
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-  </div>
+  <MainLoader v-if="!isLoaded"/>
+  <MainMonsterList v-else />
 </template>
 
 <style lang="scss" scoped>
-// Card container 
-.card-wrapper{
-  height: calc(100vh - 195px);
-  max-width: 1200px;
-  margin: 0 auto;
-  backdrop-filter: blur(3px);
-  overflow: auto;
-}
-
-.card{
-  width: 250px;
-  height: 350px;
-  border: 1px solid black;
-}
 </style>

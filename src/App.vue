@@ -8,9 +8,11 @@ import AppMain from './components/AppMain.vue';
   <AppHeader/>
   <AppMain/>
   <AppFooter/>
+  
 </template>
 
 <style lang="scss" scoped>
-@use './bootstrap'
+@use './bootstrap';
+@use './styles/general.scss'
 </style>
  
