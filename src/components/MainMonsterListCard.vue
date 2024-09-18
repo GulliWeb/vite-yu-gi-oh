@@ -20,8 +20,11 @@ export default {
 <template>
   <div class="card">
     <img :src="monsterObject.card_images[0].image_url" alt="IMAGE">
-    <h3>{{ monsterObject.name }}</h3>
-    <p>{{ monsterObject.type }}</p>
+    <div class="content">
+      <h3 class="d-flex align-items-center">{{ monsterObject.name }}</h3>
+      <p>{{ monsterObject.type }}</p>
+    </div>
+    
   </div>
 </template>
 
@@ -30,7 +33,7 @@ export default {
   width: 250px;
   margin-right: 20px;
   margin-bottom: 10px;
-  height: 350px;
+  height: 450px;
   border: 1px solid orange;
   color: white;
   text-shadow: 0.5;
@@ -42,13 +45,14 @@ export default {
 
 .card h3, .card p {
   background-color: rgba(0, 0, 0, 0.5); 
+  text-align: center;
   color: white; 
   padding: 5px; 
   border-radius: 5px; 
 }
 
 .card img {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
 }
 </style>

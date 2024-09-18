@@ -48,12 +48,15 @@ export default {
 <style lang="scss" scoped>
 // Card container 
 .card-wrapper{
-  display: flex;
-  flex-wrap: wrap;
   height: calc(100vh - 190px);
   max-width: 1400px;
   margin: 0 auto;
   backdrop-filter: blur(3px);
   overflow: auto;
+}
+
+.card-row{
+  display: flex;
+  flex-wrap: wrap;
 }
 </style>
