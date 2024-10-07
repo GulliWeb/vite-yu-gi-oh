@@ -1,23 +1,23 @@
-# Yu-Gi-Oh Card Viewer
+# 🎴 Yu-Gi-Oh Card Viewer
 
-## Description
+## 📖 Description
 
 The **Yu-Gi-Oh Card Viewer** is a web application built with **Vite** and **Vue.js** that fetches and displays a collection of Yu-Gi-Oh cards. The app retrieves card data via an API and displays them in a card grid, complete with images, names, and card details.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **Vite**: A fast, modern build tool for web projects.
 - **Vue.js**: A progressive JavaScript framework for building user interfaces.
 - **Axios**: A promise-based HTTP client used for making API requests.
 - **Bootstrap**: A popular CSS framework for responsive and mobile-first websites.
 
-## Features
+## ✨ Features
 
 - **Card Grid**: Displays a collection of Yu-Gi-Oh cards with image, name, and type.
 - **Responsive Design**: Ensures the app works seamlessly across devices.
 - **API Integration**: Fetches real-time card data from a Yu-Gi-Oh API.
 
-## Getting Started
+## 🚀 Getting Started
 
 Follow these steps to get a local copy up and running.
 
@@ -55,7 +55,7 @@ Ensure you have Node.js and npm installed on your machine:
 
 5. Open your browser and go to `http://localhost:3000` to see the application.
 
-## Project Structure
+## 📂 Project Structure
 
 The project is organized as follows:
 
@@ -67,7 +67,11 @@ The project is organized as follows:
 - **`public/`**: Contains the `index.html` file and public assets.
 - **`package.json`**: Contains project dependencies and scripts.
 
-## Usage
+## 📹 Video Demo
+
+Watch the Yu-Gi-Oh Card Viewer presentation video (https://vimeo.com/manage/videos/1017178935).
+
+## 🖥️ Usage
 
 The app allows users to:
 
@@ -75,7 +79,7 @@ The app allows users to:
 - Fetch card data dynamically via an API.
 - Display essential details for each card, including an image and its name.
 
-## Contributing
+## 🤝 Contributing
 
 If you would like to contribute to this project, follow these steps:
 
@@ -85,11 +89,11 @@ If you would like to contribute to this project, follow these steps:
 4. **Push the branch** (`git push origin feature-branch`).
 5. **Open a pull request** on GitHub.
 
-## Issues
+## 🐛 Issues
 
 If you find any bugs or have feature requests, please create an issue in the repository or contact me directly via email.
 
-## Contact
+## 📬 Contact
 
 For any inquiries or feedback, feel free to reach out:
 
